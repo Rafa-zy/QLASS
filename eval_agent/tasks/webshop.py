@@ -32,10 +32,10 @@ class WebShopTask(Task):
 
         elif split == 'test':
             print("Loading test indices")
-            idxs = json.load(open("/local2/xingcheng/Q-Agent/eval_agent/data/webshop/test_indices.json"))
+            idxs = json.load(open("eval_agent/data/webshop/test_indices.json"))
         elif split == 'test_500':
             print("Loading test indices")
-            idxs = json.load(open("/local2/xingcheng/Q-Agent/eval_agent/data/webshop/test_indices_500.json"))
+            idxs = json.load(open("eval_agent/data/webshop/test_indices_500.json"))
         else:
             raise NotImplementedError
         if part_num == 1:
