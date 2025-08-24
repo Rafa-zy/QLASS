@@ -31,7 +31,7 @@ apt-get install -y libgl1-mesa-glx
 ### 📑 Data Setup
 ```
 ### download sft json
-huggingface-cli download nbagent/qlass_sft_data
+huggingface-cli download qlass/qlass_sft_data
 
 ### download alfworld data
 cd eval_agent/data/alfworld

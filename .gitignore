@@ -185,12 +185,10 @@ logs*
 tmp_scripts*
 output*
 eval/webshop/user_session_logs
-eval_agent/data/alfworld/*
 wandb/*
 hf_cache/*
 *.log
 *.ipynb
-test*
 *.zip
 
 *deprecated
