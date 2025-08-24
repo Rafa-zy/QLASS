@@ -5,7 +5,6 @@ __pycache__/
 
 # C extensions
 *.so
-*.html
 # Distribution / packaging
 .Python
 build/
@@ -173,13 +172,10 @@ zeno_build/
 olddata*
 index*
 tmp_scripts*
-# *.html
 *.swp
 predictions*
 results/
 vis/
-index_orm.html
-index_q.html
 predictions*
 logs*
 tmp_scripts*
